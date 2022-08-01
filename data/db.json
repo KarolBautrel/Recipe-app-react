@@ -1,0 +1,39 @@
+{
+  "recipes": [
+    {
+      "title": "Pomidorowa",
+      "method": "Dodac pomidora do wody i dosypac kucharek i wcisnac makaron",
+      "cookingTime": "45",
+      "ingredients": [
+        "pomidor",
+        " woda",
+        " kucharek",
+        " makaron"
+      ],
+      "id": 5
+    },
+    {
+      "title": "Mielone",
+      "method": "kazdy wie jak to sie robi",
+      "cookingTime": "56",
+      "ingredients": [
+        "Mieso",
+        " Maka",
+        " Jajko"
+      ],
+      "id": 7
+    },
+    {
+      "title": "Rosol",
+      "method": "Kazdy wie jak zrobic rosol elo",
+      "cookingTime": "56",
+      "ingredients": [
+        "Kurczak",
+        " Makaron",
+        " Winiary",
+        " Woda"
+      ],
+      "id": 8
+    }
+  ]
+}

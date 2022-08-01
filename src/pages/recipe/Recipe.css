@@ -1,0 +1,36 @@
+.recipe-title{
+    margin-left:30%;
+    display:flex
+  }
+.time{
+    margin-left:6%
+}  
+
+
+.delete-btn{
+ 
+  margin-left:15%;
+  margin-top:10px;
+  background-color: #58249c;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+
+
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  transition: color 100ms;
+  vertical-align: baseline;
+
+}
+
+.delete-btn:hover,
+.delete-btn:focus {
+  background-color: #7651a7;
+}

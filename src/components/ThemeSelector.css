@@ -1,0 +1,20 @@
+
+.theme-switch-btn{
+    margin-left:15px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border:0
+  
+  }
+  .mode-selector{
+    margin-top:5px;
+    display:inline-block;
+    margin-left:15px;
+  }
+
+  .mode-selector-btn{
+    height:20px;
+    width:20px;
+    margin-left:12px;
+  }

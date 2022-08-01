@@ -34,3 +34,17 @@
 .delete-btn:focus {
   background-color: #7651a7;
 }
+
+
+.card.dark{
+  background-color: #555
+    }
+  
+    .card.dark h1,
+    .card.dark li,
+    .card.dark h3,
+
+    .card.dark p{
+      color: #e4e4e4
+    }
+  

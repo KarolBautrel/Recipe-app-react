@@ -1,12 +1,14 @@
 import "./Recipe.css";
 import useFetch from "../../hooks/useFetch";
 import { useParams, useHistory } from "react-router-dom";
+import useTheme from "../../hooks/useTheme";
 
 import React from "react";
 
 export default function Recipe() {
   const { id } = useParams();
   const redirect = useHistory();
+  const { mode } = useTheme();
 
   const { data, isLoading, isError } = useFetch(
     `http://localhost:8000/recipes/${id}`
@@ -28,7 +30,7 @@ export default function Recipe() {
       {isLoading ? (
         <div>Loading...</div>
       ) : (
-        <div className="card">
+        <div className={`card ${mode}`}>
           <h1 className="recipe-title">
             {data.title}{" "}
             <button
